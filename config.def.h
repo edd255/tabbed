@@ -1,10 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "monospace:size=9";
-static const char* normbgcolor  = "#222222";
-static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#555555";
+static const char font[]        = "Fira Code:size=12";
+static const char* normbgcolor  = "#555555";
+static const char* normfgcolor  = "#ffffff";
+static const char* selbgcolor   = "#000000";
 static const char* selfgcolor   = "#ffffff";
 static const char* urgbgcolor   = "#111111";
 static const char* urgfgcolor   = "#cc0000";
@@ -15,8 +15,7 @@ static const int  tabwidth      = 200;
 static const Bool foreground    = True;
 static       Bool urgentswitch  = False;
 
-/*
- * Where to place a new tab when it is opened. When npisrelative is True,
+/* Where to place a new tab when it is opened. When npisrelative is True,
  * then the current position is changed + newposition. If npisrelative
  * is False, then newposition is an absolute position.
  */
